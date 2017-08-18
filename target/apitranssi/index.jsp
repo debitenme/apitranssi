@@ -17,7 +17,7 @@
 <body>
     <h2>Hello World!</h2>
     <div id="header">
-        <<div class="page-header">
+        <div class="page-header">
             <h1>分销系统API： <small>调用实例</small></h1>
         </div>
     </div>
@@ -27,7 +27,7 @@
             <div class="panel-body">
                 <ul class="parameter-group">
                     <li class="custid">
-                        <span class="input-group-addon" id="basic-addon1">@</span>
+                        <span class="input-group-addon" id="basic-addon1">custid</span>
                         <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
                     </li>
                     <li class="mobile-phone">

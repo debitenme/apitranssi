@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>success-page</title>
 </head>
 <body>
-$END$
+    <h1>This is successful!</h1>
 </body>
 </html>

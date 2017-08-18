@@ -6,11 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html ng-app>
 <head>
-    <title>$Title$</title>
+    <title>Simple app</title>
+    <script
+            src="/jQuery/angular.min.js">
+    </script>
 </head>
 <body>
-$END$
+<input ng-model="name" type="text" placeholder="Your name" >
+<h1 ng-init="name='World'">Hello {{ name }}</h1>
 </body>
 </html>
